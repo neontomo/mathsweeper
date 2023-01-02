@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<title>Mathsweeper</title>
+	<meta name="description" content="Mathsweeper">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="https://neontomo.com/css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css?v=3" type="text/css">
+</head>
+<body>
+	<div id="instructions" hidden>Hi! This isn't normal Minesweeper, buddy.<br /><br />To know where the mines are you first need to solve math problems which tell you the amount of mines nearby. Long press to flag.<br /><br />Click to continue.</div>
+	<div id="main">
+		<div id="board-top">
+			<span id="board-mines" title="Mines">15</span>
+			<span id="board-status" title="Game status">😊</span>
+			<span id="board-timer" title="Seconds played">000</span>
+		</div>
+		<table id="board"></table>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="js/script.js?v=4"></script>
+</html>
